@@ -27,3 +27,5 @@ conda install -c anaconda basemap
 conda install jupyter python=3.8
 ```
 to create a "natcommun" environment with necessary dependencies.
+
+To install an R kernel for Figure 1, you can follow the instructions [here](https://richpauloo.github.io/2018-05-16-Installing-the-R-kernel-in-Jupyter-Lab/).
