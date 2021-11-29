@@ -4,9 +4,11 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 # Directory structure
 ```
 └─ notebooks/:
+|   └─ Figure1.ipynb: Read data and reproduce Figure 1 (R script)
 |   └─ Figure2.ipynb: Read data and reproduce figure
 |   └─ colorbars.py: continues some colorbars
 └─ data/:
+|   └─ Figure1.csv: data for Figure 1
 |   └─ data_Fig2.pickle: data for Figure 2
 |   └─ ...: more data for Figure 2
 ```
