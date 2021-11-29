@@ -19,6 +19,11 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 Interactive jupyter notebook are provided to reproduce the figures of this paper. You can install [Jupyter](https://jupyter.org/) and then launch the notebooks [here](https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/notebooks/).
 
 # Packages to install
-conda create -n natcommun netCDF4 numpy matplotlib xarray scipy \
-conda install -c anaconda basemap \
+
+Download e.g. a miniconda installer from [here](https://docs.conda.io/en/latest/miniconda.html#macos-installers) and then type
+```
+conda create -n natcommun netCDF4 numpy matplotlib xarray scipy
+conda install -c anaconda basemap
 conda install jupyter python=3.8
+```
+to create a "natcommun" environment with necessary dependencies.
