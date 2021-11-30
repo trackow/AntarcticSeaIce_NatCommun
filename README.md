@@ -8,12 +8,15 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ Figure2.ipynb: Read data and reproduce figure
 |   └─ Figure3a.ipynb: Read data and reproduce panel a) in Figure 3
 |   └─ Figure3b.ipynb: Read data and reproduce panel b) in Figure 3
+|   └─ Figure4.ipynb: Read data and reproduce all panels of Figure 4 (except sea ice in panel a))
+|   └─ Figure4_NSIDCice.ipynb: Read data and reproduce sea ice in panel a) of Figure 4
 |   └─ colorbars.py: continues some colorbars
 └─ data/:
 |   └─ Figure1.csv: data for Figure 1
 |   └─ data_Fig2.pickle: data for Figure 2
 |   └─ data_Fig3a.pickle: data for Figure 3, panel a
 |   └─ data_Fig3b.pickle: data for Figure 3, panel b
+|   └─ data_Fig4.pickle: data for Figure 4, all panels
 |   └─ ...: more data
 ```
 
