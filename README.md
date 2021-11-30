@@ -8,6 +8,7 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ Figure2.ipynb: Read data and reproduce figure
 |   └─ Figure3a.ipynb: Read data and reproduce panel a) in Figure 3
 |   └─ Figure3b.ipynb: Read data and reproduce panel b) in Figure 3
+|   └─ Figure3c.ipynb: Read data and reproduce panel c) in Figure 3
 |   └─ Figure4.ipynb: Read data and reproduce all panels of Figure 4 (except sea ice in panel a))
 |   └─ Figure4_NSIDCice.ipynb: Read data and reproduce sea ice in panel a) of Figure 4
 |   └─ colorbars.py: continues some colorbars
@@ -16,7 +17,9 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ data_Fig2.pickle: data for Figure 2
 |   └─ data_Fig3a.pickle: data for Figure 3, panel a
 |   └─ data_Fig3b.pickle: data for Figure 3, panel b
-|   └─ data_Fig4.pickle: data for Figure 4 (except ice), all panels
+|   └─ data_Fig3c_HR.pickle: HR data for Figure 3, panel c (use git lfs)
+|   └─ data_Fig3c_LR.pickle: LR data for Figure 3, panel c
+|   └─ data_Fig4.pickle: data for Figure 4 (except ice), all panels (use git lfs)
 |   └─ data_Fig4_ice.pickle: HR and LR sea ice data for Figure 4, panels b and c
 |   └─ mean.sep.1979-2020.s.bil: OBS sea ice data for Figure 4, panel a
 |   └─ ...: more data
