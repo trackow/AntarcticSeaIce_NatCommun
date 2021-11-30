@@ -34,6 +34,8 @@ Download e.g. a miniconda installer from [here](https://docs.conda.io/en/latest/
 conda create -n natcommun netCDF4 numpy matplotlib xarray scipy
 conda install -c anaconda basemap
 conda install jupyter python=3.8
+conda install seawater joblib
+conda install cmocean
 ```
 to create a "natcommun" environment with necessary dependencies.
 
