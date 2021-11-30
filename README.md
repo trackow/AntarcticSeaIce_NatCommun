@@ -11,6 +11,7 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ Figure3c.ipynb: Read data and reproduce panel c) in Figure 3
 |   └─ Figure4.ipynb: Read data and reproduce all panels of Figure 4 (except sea ice in panel a))
 |   └─ Figure4_NSIDCice.ipynb: Read data and reproduce sea ice in panel a) of Figure 4
+|   └─ Figure5ad.ipynb: Read data and reproduce panels a) and d) of Figure 5
 |   └─ colorbars.py: continues some colorbars
 └─ data/:
 |   └─ Figure1.csv: data for Figure 1
@@ -22,6 +23,10 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ data_Fig4.pickle: data for Figure 4 (except ice), all panels (use git lfs)
 |   └─ data_Fig4_ice.pickle: HR and LR sea ice data for Figure 4, panels b and c
 |   └─ mean.sep.1979-2020.s.bil: OBS sea ice data for Figure 4, panel a
+|   └─ data_Fig5a.pickle: model data for Figure 5, panel a)
+|   └─ data_Fig5d.pickle: model data for Figure 5, panel d)
+|   └─ CMIP5_OHF_ensmeans_allmodels_1990-2019.csv: CMIP5 meridional heat flux, 1990-2019 for Fig. 5d
+|   └─ CMIP5_OHF_ensmeans_allmodels_2070-2099.csv: CMIP5 meridional heat flux, 2070-2099 for Fig. 5d
 |   └─ ...: more data
 ```
 # Jupyter notebooks
