@@ -21,7 +21,6 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ mean.sep.1979-2020.s.bil: OBS sea ice data for Figure 4, panel a
 |   └─ ...: more data
 ```
-https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/data/
 # Jupyter notebooks
 Interactive jupyter notebook are provided to reproduce the figures of this paper. You can install [Jupyter](https://jupyter.org/) and then launch the notebooks [here](https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/notebooks/).
 
