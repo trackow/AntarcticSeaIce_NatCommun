@@ -16,10 +16,12 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ data_Fig2.pickle: data for Figure 2
 |   └─ data_Fig3a.pickle: data for Figure 3, panel a
 |   └─ data_Fig3b.pickle: data for Figure 3, panel b
-|   └─ data_Fig4.pickle: data for Figure 4, all panels
+|   └─ data_Fig4.pickle: data for Figure 4 (except ice), all panels
+|   └─ data_Fig4_ice.pickle: HR and LR sea ice data for Figure 4, panels b and c
+|   └─ mean.sep.1979-2020.s.bil: OBS sea ice data for Figure 4, panel a
 |   └─ ...: more data
 ```
-
+https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/data/
 # Jupyter notebooks
 Interactive jupyter notebook are provided to reproduce the figures of this paper. You can install [Jupyter](https://jupyter.org/) and then launch the notebooks [here](https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/notebooks/).
 
