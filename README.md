@@ -48,3 +48,11 @@ sys.path.append("/path/to/pyfesom/")
 import pyfesom as pf
 ```
 To install an R kernel for Figure 1, you can follow the instructions [here](https://richpauloo.github.io/2018-05-16-Installing-the-R-kernel-in-Jupyter-Lab/).
+In order to run Figure4_NSIDCice.ipynb, you need to have gdal installed. This can be problematic on macOS, but you can try the following recipe:
+```
+conda create -n gdal python=3.8
+conda activate gdal
+conda install -c conda-forge gdal
+conda install numpy matplotlib 
+conda install jupyter
+```
