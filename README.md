@@ -37,6 +37,14 @@ conda install jupyter python=3.8
 conda install seawater joblib
 conda install cmocean
 ```
-to create a "natcommun" environment with necessary dependencies.
+to create a "natcommun" environment with necessary dependencies. 
 
+# Further information
+In order to plot Figure 4, the [pyfesom](https://pyfesom.readthedocs.io/en/latest/installation.html) package needs to be installed and the path to your local installation
+included:
+```
+import sys
+sys.path.append("/path/to/pyfesom/")
+import pyfesom as pf
+```
 To install an R kernel for Figure 1, you can follow the instructions [here](https://richpauloo.github.io/2018-05-16-Installing-the-R-kernel-in-Jupyter-Lab/).
