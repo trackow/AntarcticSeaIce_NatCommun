@@ -5,7 +5,7 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 ```
 └─ notebooks/:
 |   └─ Figure1.ipynb: Read data and reproduce Figure 1 (R script)
-|   └─ Figure2.ipynb: Read data and reproduce figure
+|   └─ Figure2.ipynb: Read data and reproduce Figure 2
 |   └─ Figure3a.ipynb: Read data and reproduce panel a) in Figure 3
 |   └─ Figure3b.ipynb: Read data and reproduce panel b) in Figure 3
 |   └─ Figure3c.ipynb: Read data and reproduce panel c) in Figure 3
@@ -17,13 +17,13 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 └─ data/:
 |   └─ Figure1.csv: data for Figure 1
 |   └─ data_Fig2.pickle: data for Figure 2
-|   └─ data_Fig3a.pickle: data for Figure 3, panel a
-|   └─ data_Fig3b.pickle: data for Figure 3, panel b
-|   └─ data_Fig3c_HR.pickle: HR data for Figure 3, panel c (use git lfs)
-|   └─ data_Fig3c_LR.pickle: LR data for Figure 3, panel c
+|   └─ data_Fig3a.pickle: data for Figure 3, panel a)
+|   └─ data_Fig3b.pickle: data for Figure 3, panel b)
+|   └─ data_Fig3c_HR.pickle: HR data for Figure 3, panel c) (use git lfs)
+|   └─ data_Fig3c_LR.pickle: LR data for Figure 3, panel c)
 |   └─ data_Fig4.pickle: data for Figure 4 (except ice), all panels (use git lfs)
-|   └─ data_Fig4_ice.pickle: HR and LR sea ice data for Figure 4, panels b and c
-|   └─ mean.sep.1979-2020.s.bil: OBS sea ice data for Figure 4, panel a
+|   └─ data_Fig4_ice.pickle: HR and LR sea ice data for Figure 4, panels b) and c)
+|   └─ mean.sep.1979-2020.s.bil: OBS sea ice data for Figure 4, panel a)
 |   └─ data_Fig5a.pickle: model data for Figure 5, panel a)
 |   └─ data_Fig5d.pickle: model data for Figure 5, panel d)
 |   └─ CMIP5_OHF_ensmeans_allmodels_1990-2019.csv: CMIP5 meridional heat flux, 1990-2019 for Fig. 5d
@@ -57,7 +57,7 @@ sys.path.append("/path/to/pyfesom/")
 import pyfesom as pf
 ```
 To install an R kernel for Figure 1, you can follow the instructions [here](https://richpauloo.github.io/2018-05-16-Installing-the-R-kernel-in-Jupyter-Lab/).
-In order to run Figure4_NSIDCice.ipynb, you need to have gdal installed. This can be [problematic](https://stackoverflow.com/questions/33574902/install-gdal-using-conda) on some operating systems like macOS, but you can try the following recipe:
+In order to run Figure4_NSIDCice.ipynb, you need to have 'gdal' installed. This can sometimes be [problematic](https://stackoverflow.com/questions/33574902/install-gdal-using-conda) on some operating systems like macOS, but you can try the following recipe:
 ```
 conda create -n gdal python=3.8
 conda activate gdal
