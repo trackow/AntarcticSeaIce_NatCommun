@@ -12,6 +12,7 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ Figure4.ipynb: Read data and reproduce all panels of Figure 4 (except sea ice in panel a))
 |   └─ Figure4_NSIDCice.ipynb: Read data and reproduce sea ice in panel a) of Figure 4
 |   └─ Figure5ad.ipynb: Read data and reproduce panels a) and d) of Figure 5
+|   └─ Figure5bcef.ipynb: Read data and reproduce panels b), c) and e),f) of Figure 5
 |   └─ colorbars.py: continues some colorbars
 └─ data/:
 |   └─ Figure1.csv: data for Figure 1
@@ -27,7 +28,10 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ data_Fig5d.pickle: model data for Figure 5, panel d)
 |   └─ CMIP5_OHF_ensmeans_allmodels_1990-2019.csv: CMIP5 meridional heat flux, 1990-2019 for Fig. 5d
 |   └─ CMIP5_OHF_ensmeans_allmodels_2070-2099.csv: CMIP5 meridional heat flux, 2070-2099 for Fig. 5d
-|   └─ ...: more data
+|   └─ data_Fig5bcef.pickle: model data for Figure 5, panels b),c) and e),f)
+|   └─ CMIP5_iceedge_latitudes_1990-2019.csv: CMIP5 location of sea ice edge, 1990-2019 for Fig. 5e
+|   └─ CMIP5_iceedge_latitudes_2070-2099.csv: CMIP5 location of sea ice edge, 2070-2099 for Fig. 5e
+|   └─ ...: some more data
 ```
 # Jupyter notebooks
 Interactive jupyter notebook are provided to reproduce the figures of this paper. You can install [Jupyter](https://jupyter.org/) and then launch the notebooks [here](https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/notebooks/).
