@@ -1,6 +1,12 @@
 # AntarcticSeaIce_NatCommun
 Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2021). The notebooks and data are stored in two separate folders as detailed below.
 
+![Delayed Antarctic sea-ice decline](https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/data/Figure3a.png?raw=true)
+_**Time series of observed September sea ice (1979–2018) and projections until the end of the 21st century.** 
+September Antarctic sea-ice extent in the high-resolution (HR; grey/black) and low-resolution
+(LR; light green/green) AWI-CM configurations. Control simulations with atmospheric greenhouse gas concentrations fixed at
+1950 levels are shown in light colors. The red line depicts historical SIE observations (OBS) over the satellite era._
+
 # Directory structure
 ```
 └─ notebooks/:
