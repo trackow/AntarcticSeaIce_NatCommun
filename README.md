@@ -32,6 +32,9 @@ Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2
 |   └─ CMIP5_iceedge_latitudes_1990-2019.csv: CMIP5 location of sea ice edge, 1990-2019 for Fig. 5e
 |   └─ CMIP5_iceedge_latitudes_2070-2099.csv: CMIP5 location of sea ice edge, 2070-2099 for Fig. 5e
 |   └─ ...: some more data
+
+[some of the data are stored with Git Large File Storage (lfs). Although deprecated, try 'git lfs clone' 
+with older git clients if you experience problems, instead of the usual 'git clone']
 ```
 # Jupyter notebooks
 Interactive jupyter notebook are provided to reproduce the figures of this paper. You can install [Jupyter](https://jupyter.org/) and then launch the notebooks [here](https://github.com/trackow/AntarcticSeaIce_NatCommun/blob/main/notebooks/).
@@ -65,3 +68,4 @@ conda install -c conda-forge gdal
 conda install numpy matplotlib 
 conda install jupyter
 ```
+Information on the usage of Git LFS you can find [here](https://git-lfs.github.com).
