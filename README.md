@@ -1,5 +1,5 @@
 # AntarcticSeaIce_NatCommun
-Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2021)
+Jupyter notebooks to reproduce the main figures of the paper by Rackow et al. (2021). The notebooks and data are stored in two separate paths as detailed below.
 
 # Directory structure
 ```
